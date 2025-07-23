@@ -1,0 +1,29 @@
+{
+  "name": "gld",
+  "version": "1.0.0",
+  "description": "Great Lorem Distributor – Your ultimate lorem ipsum generator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "generator",
+    "placeholder",
+    "text"
+  ],
+  "author": "Anton Medvedev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonmedv/gld.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
